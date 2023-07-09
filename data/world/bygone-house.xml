@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Bygone #1" houseid="1" entryx="201" entryy="102" entryz="7" rent="200000" townid="1" size="36" />
+	<house name="Bygone #2" houseid="2" entryx="191" entryy="104" entryz="7" rent="200000" townid="1" size="59" />
+	<house name="Bygone #3" houseid="3" entryx="191" entryy="110" entryz="7" rent="200000" townid="1" size="49" />
+	<house name="Bygone #4" houseid="4" entryx="195" entryy="88" entryz="7" rent="200000" townid="1" size="120" />
+	<house name="Bygone #5" houseid="5" entryx="195" entryy="81" entryz="7" rent="200000" townid="1" size="120" />
+	<house name="Down Under #1" houseid="6" entryx="218" entryy="102" entryz="9" rent="200000" townid="1" size="21" />
+	<house name="Down Under #2" houseid="7" entryx="221" entryy="102" entryz="9" rent="200000" townid="1" size="38" />
+	<house name="Down Under #3" houseid="8" entryx="221" entryy="91" entryz="9" rent="200000" townid="1" size="28" />
+	<house name="Down Under #4" houseid="9" entryx="211" entryy="97" entryz="9" rent="200000" townid="1" size="25" />
+	<house name="Bygone #6" houseid="10" entryx="202" entryy="115" entryz="7" rent="200000" townid="1" size="43" />
+</houses>

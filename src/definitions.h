@@ -7,6 +7,12 @@
 static constexpr auto STATUS_SERVER_NAME = "The Forgotten Server";
 static constexpr auto STATUS_SERVER_VERSION = "1.4.2";
 static constexpr auto STATUS_SERVER_DEVELOPERS = "The Forgotten Server Team";
+static constexpr auto STATUS_BYGONE_NAME = "Bygone Illusion";
+static constexpr auto STATUS_BYGONE_VERSION = "1.0";
+static constexpr auto STATUS_BYGONE_DEVELOPERS = "Silba";
+static constexpr auto STATUS_BYGONE_MAP_DEVELOPERS = "Silba, Viduy";
+static constexpr auto STATUS_BYGONE_FIND_US = "https://otland.net/members/silba.189310/";
+
 
 static constexpr auto CLIENT_VERSION_MIN = 1097;
 static constexpr auto CLIENT_VERSION_MAX = 1098;

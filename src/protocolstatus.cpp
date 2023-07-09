@@ -92,8 +92,8 @@ void ProtocolStatus::sendStatusString()
 	serverinfo.append_attribute("port") = std::to_string(g_config.getNumber(ConfigManager::LOGIN_PORT)).c_str();
 	serverinfo.append_attribute("location") = g_config.getString(ConfigManager::LOCATION).c_str();
 	serverinfo.append_attribute("url") = g_config.getString(ConfigManager::URL).c_str();
-	serverinfo.append_attribute("server") = STATUS_SERVER_NAME;
-	serverinfo.append_attribute("version") = STATUS_SERVER_VERSION;
+	serverinfo.append_attribute("server") = STATUS_BYGONE_NAME;
+	serverinfo.append_attribute("version") = STATUS_BYGONE_VERSION;
 	serverinfo.append_attribute("client") = CLIENT_VERSION_STR;
 
 	pugi::xml_node owner = tsqp.append_child("owner");
@@ -203,8 +203,8 @@ void ProtocolStatus::sendInfo(uint16_t requestedInfo, const std::string& charact
 
 	if (requestedInfo & REQUEST_SERVER_SOFTWARE_INFO) {
 		output->addByte(0x23); // server software info
-		output->addString(STATUS_SERVER_NAME);
-		output->addString(STATUS_SERVER_VERSION);
+		output->addString(STATUS_BYGONE_NAME);
+		output->addString(STATUS_BYGONE_VERSION);
 		output->addString(CLIENT_VERSION_STR);
 	}
 	send(output);

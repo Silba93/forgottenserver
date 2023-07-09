@@ -102,6 +102,7 @@ void printServerVersion()
 	#endif
 #else
 	std::cout << STATUS_SERVER_NAME << " - Version " << STATUS_SERVER_VERSION << std::endl;
+	std::cout << STATUS_BYGONE_NAME << " - Version " << STATUS_BYGONE_VERSION << std::endl;
 #endif
 	std::cout << std::endl;
 
@@ -123,8 +124,16 @@ void printServerVersion()
 #endif
 	std::cout << std::endl;
 
-	std::cout << "A server developed by " << STATUS_SERVER_DEVELOPERS << std::endl;
-	std::cout << "Visit our forum for updates, support, and resources: https://otland.net/." << std::endl;
+	std::cout << "Original server developed by " << STATUS_SERVER_DEVELOPERS << std::endl;
+	std::cout << "Original forum for updates, support, and resources: https://otland.net/." << std::endl;
+	std::cout << std::endl;
+	std::cout << "Bygone Illusion server developed by " << STATUS_BYGONE_DEVELOPERS << std::endl;
+	std::cout << "Bygone Illusion map developed by " << STATUS_BYGONE_MAP_DEVELOPERS << std::endl;
+	std::cout << STATUS_BYGONE_FIND_US << std::endl;
+	std::cout << std::endl;
+	std::cout << "--- THANK YOU ---" << std::endl;
+	std::cout << "to the original developers of illusion and it's map." << std::endl;
+	std::cout << "to Open Tibia Academy for support during my journey as a developer. https://github.com/OTAcademy" << std::endl;
 	std::cout << std::endl;
 }
 
